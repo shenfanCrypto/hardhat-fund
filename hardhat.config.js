@@ -12,10 +12,10 @@ require("@nomiclabs/hardhat-waffle")
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 const GOERLI_RPC_URL =
     process.env.GOERLI_RPC_URL ||
-    "https://eth-goerli.g.alchemy.com/v2/k2YnT72DnBMBUcWVPvrSi8LR7XwAxtux"
+    ""
 const PRIVATE_KEY =
     process.env.PRIVATE_KEY ||
-    "PRIVATE_KEY=27c7b1c13bdc32cf436a28ee06630b8417f08a41ebdc566534e398f51892a577"
+    ""
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 
 module.exports = {
